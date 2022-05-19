@@ -1,0 +1,66 @@
+.filterComponents {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.radioBtnContainer {
+  display: flex;
+}
+
+.radioBtn {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  background: rgba(234, 234, 234, 0.16);
+  color: rgb(0, 0, 0);
+  border: 1px solid #e6e6e6;
+}
+
+.radioBtn:hover {
+  margin: 11px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 4px 4px rgba(176, 176, 176, 0.25);
+}
+
+.popularCats {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(254px, 1fr));
+  grid-gap: 10px;
+}
+.popularCat {
+  padding: 10px 30px;
+  background: #f4f4f4;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.popularCat:hover {
+  background: #fbfbfb;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.25);
+}
+.popularCat img {
+  width: 120px;
+  height: 140px;
+  object-fit: cover;
+}
+.popularCats p {
+  font-size: 18px;
+}
+
+@media (max-width: 500px) {
+  .popularCats {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .popularCat img {
+    width: 80px;
+    height: 100px;
+  }
+  .popularCats p {
+    font-size: 12px;
+  }
+}

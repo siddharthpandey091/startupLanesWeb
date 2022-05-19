@@ -1,0 +1,67 @@
+.ProfileServices {
+  margin-bottom: 40px;
+  margin-right: 400px;
+}
+.ProfileServices h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0aa6a0;
+}
+.ProfileServices h6 {
+  font-size: 20px;
+  /* margin-top: 5px; */
+  font-weight: normal;
+  color: #0da29e;
+}
+.ProfileServices p {
+  font-size: 18px;
+  color: #949494;
+  line-height: 27px;
+  text-align: left;
+  /* margin-left: 5px; */
+}
+.ProfileServices ul {
+  margin-left: 20px;
+  margin-top: 20px;
+  list-style: disc;
+  list-style-image: url("/arrow.svg");
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+.ProfileServices ul li {
+  margin-left: 0;
+  padding-left: 5px;
+}
+
+.ProfileServices input {
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid #cecece;
+  font-size: 20px;
+  line-height: 27px;
+  color: #949494;
+  font-weight: normal;
+}
+
+.service {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1100px) {
+  .ProfileServices {
+    margin-right: 10px;
+  }
+  .ProfileServices h4 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}

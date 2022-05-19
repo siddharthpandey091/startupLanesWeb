@@ -1,0 +1,26 @@
+.DashboardCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  width: 255px;
+  height: 113px;
+  background: #065451;
+  border-radius: 20px;
+}
+.DashboardCard p {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.DashboardCard h1 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 39px;
+  color: #ffffff;
+}
+.DashboardCard img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}

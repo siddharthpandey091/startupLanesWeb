@@ -1,0 +1,71 @@
+.CustomSearchbar input {
+  color: green;
+  caret-color: green;
+  width: 479px;
+  height: 53px;
+  background: rgba(234, 234, 234, 0.16);
+  border-radius: 10px;
+  border: none;
+  padding-left: 15%;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+}
+.CustomSearchbar input:focus {
+  box-shadow: 2px 4px 4px rgba(176, 176, 176, 0.25);
+  outline: none;
+}
+.CustomSearchbar img {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 13px;
+  color: var(--green-color);
+  font-size: 26px;
+}
+.dataRes {
+  /* text-align: center; */
+  border-radius: 10px;
+  height: 150px;
+  background-color: #f6f6f6;
+  overflow: auto;
+  padding-left: 20px;
+}
+.dataRes div {
+  margin-top: 5px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+  .CustomSearchbar i {
+    left: 33%;
+  }
+}
+@media (max-width: 1200px) {
+  .CustomSearchbar i {
+    left: 32%;
+  }
+}
+@media (max-width: 1000px) {
+  .CustomSearchbar i {
+    left: 28%;
+  }
+}
+@media (max-width: 750px) {
+  .CustomSearchbar i {
+    left: 21%;
+  }
+}
+@media (max-width: 650px) {
+  .CustomSearchbar i {
+    left: 12%;
+  }
+}
+@media (max-width: 500px) {
+  .CustomSearchbar input {
+    width: 300px;
+    padding-left: 19%;
+  }
+  .CustomSearchbar i {
+    left: 11%;
+  }
+}
