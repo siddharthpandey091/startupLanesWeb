@@ -1,1 +1,1 @@
-export const url = "http://sloutreach.com/backend/api"
+export const url = "https://sloutreach.com/backend/api"
