@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@swc/core-win32-x64-msvc": "^1.2.168",
     "axios": "^0.26.1",
     "formik": "^2.2.9",
     "framer-motion": "^6.3.0",
